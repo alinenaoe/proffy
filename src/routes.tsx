@@ -10,7 +10,6 @@ export default function Routes() {
             <Route path="/" component={Landing} exact />
             <Route path="/study" component={TeachersList} exact />
             <Route path="/teach" component={TeachersForm} exact />
-
         </BrowserRouter>
     )
 }
