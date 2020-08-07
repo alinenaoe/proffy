@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../../assets/images/logo.svg';
-import landingImg from '../../assets/images/landing.svg';
+import landingImg from '../../assets/images/landing_02.svg';
 
 import studyIcon from '../../assets/images/icons/study.svg';
 import teachIcon from '../../assets/images/icons/study.svg';
