@@ -1,7 +1,7 @@
 # Proffy
 
 <p align="center">
-  <img width="500" src="https://github.com/alinenaoe/proffy/blob/master/src/assets/images/proffy_landing.jpg">
+  <img width="500" src="https://raw.githubusercontent.com/alinenaoe/proffy/master/src/assets/images/proffy_landing.JPG">
 </p>
 
 ## What does the application do?
