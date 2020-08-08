@@ -13,7 +13,7 @@
 
 * Made with ReactJS and Typescript
 * Rest API built with Node and Express ([see code](https://github.com/alinenaoe/proffy-backend))
-* Mobile first
+* Mobile version with React Native and Expo ([see code](https://github.com/alinenaoe/proffy-mobile))
 * Developed during Next Level Week #2 course
 
 ## Run the project
