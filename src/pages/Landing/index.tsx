@@ -24,6 +24,14 @@ export default function Landing() {
 
     return (
         <div id="page-landing">
+
+            <header>
+                <div className="user-options">
+                    <Link to="/login" className="option-login">Login</Link>        
+                    <Link to="/register" className="option-register">Cadastro</Link>        
+                </div>
+            </header>
+
             <div id="page-landing-content" className="container">
 
                 <div className="logo-container">

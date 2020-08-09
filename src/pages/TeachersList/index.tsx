@@ -6,6 +6,7 @@ import Input from '../../components/Input';
 import Select from '../../components/Select';
 
 import api from '../../services/api';
+import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 import './styles.css';
 
 export default function TeachersList() {
@@ -80,6 +81,37 @@ export default function TeachersList() {
             </PageHeader>
 
             <main>
+            <article className="teacher-item">
+                <header>
+                    <img src="https://avatars0.githubusercontent.com/u/33556958?s=460&u=621ac119698e36911bd1d9518cf26dc66678041d&v=4" alt="Aline Naoe"/>
+                    <div>
+                        <strong>Aline Naoe</strong>
+                        <span>Desenvolvimento frontend</span>
+                    </div>
+                </header>
+
+                <p>Olá! Essa página foi desenvolvida durante a Next Level Week #2, da Rocketseat.</p>
+                <p>Você está vendo uma página estática, mas boa parte do backend já foi desenvolvida :)</p> 
+                <br></br>
+                <p>Se quiser olhar o código, confere{' '}  
+                <a href="https://github.com/alinenaoe/proffy">esse repositório no GitHub</a>
+                </p>
+
+                <footer>
+                    <p>
+                        Valor por hora
+                        <strong>R$ 50,00</strong>
+                    </p>
+                    <a 
+                        href={`https://wa.me/5511957949393`} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={whatsappIcon} alt="WhatsApp"/>
+                        Entrar em contato
+                    </a>
+                </footer>
+            </article>                
                 {teachers.map((teacher: Teacher )=> {
                     return <TeacherItem key={teacher.id} teacher={teacher} />
                 })}
