@@ -1,7 +1,11 @@
 # Proffy
 
 <p align="center">
+<<<<<<< HEAD
   <img width="500" src="https://github.com/alinenaoe/proffy/blob/master/src/assets/images/proffy_landing.JPG">
+=======
+  <img width="500" src="https://raw.githubusercontent.com/alinenaoe/proffy/master/src/assets/images/proffy_landing.JPG">
+>>>>>>> b49c4b4f331ee96a60406271821cf474aa50768b
 </p>
 
 
@@ -15,7 +19,7 @@
 
 * Made with ReactJS and Typescript
 * Rest API built with Node and Express ([see code](https://github.com/alinenaoe/proffy-backend))
-* Mobile first
+* Mobile version with React Native and Expo ([see code](https://github.com/alinenaoe/proffy-mobile))
 * Developed during Next Level Week #2 course
 
 ## Run the project
