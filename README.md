@@ -1,11 +1,9 @@
 # Proffy
 
 <p align="center">
-<<<<<<< HEAD
+
   <img width="500" src="https://github.com/alinenaoe/proffy/blob/master/src/assets/images/proffy_landing.JPG">
-=======
-  <img width="500" src="https://raw.githubusercontent.com/alinenaoe/proffy/master/src/assets/images/proffy_landing.JPG">
->>>>>>> b49c4b4f331ee96a60406271821cf474aa50768b
+
 </p>
 
 
